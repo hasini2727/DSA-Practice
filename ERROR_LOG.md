@@ -14,3 +14,19 @@
 - Hash Map lets you look backward in O(1) 
 
 **Pattern Missed:** Hash Map Lookback / Complement Search
+
+
+## Date: May 20, 2026
+
+**Problem:** Factorial of Number
+
+**Why I got stuck:**
+- Tracking recursive calls and returns.
+- Understanding how values move through the call stack.
+
+**What I learned:**
+Base Case: n <= 1 stops recursion safely.
+Recursive Step: Solve using n * fact(n - 1).
+Recursive calls use stack memory for each function call.
+
+**Pattern Used:** Direct Recursion
