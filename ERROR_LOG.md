@@ -30,3 +30,18 @@ Recursive Step: Solve using n * fact(n - 1).
 Recursive calls use stack memory for each function call.
 
 **Pattern Used:** Direct Recursion
+
+
+## Date: May 22, 2026
+
+**Problem:** Binary Search
+
+**Why I got stuck:**
+- mid was not updating inside loop.
+- Confused about return types and scope.
+
+**What I learned:**
+- Recalculate mid inside while.
+- void methods cannot return values.
+
+**Pattern Used:** Binary Search
