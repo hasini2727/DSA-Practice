@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Problem: Factorial of N
 // Pattern: Recursion
 // Time: O(n) | Space: O(n) 

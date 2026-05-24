@@ -45,3 +45,18 @@ Recursive calls use stack memory for each function call.
 - void methods cannot return values.
 
 **Pattern Used:** Binary Search
+
+
+## Date: May 24, 2026
+
+**Problem:** Move Zeroes
+
+**Why I got stuck:**
+- Initially focused on moving zeros instead of placing non-zeros.
+- Confused about swap vs direct placement logic.
+
+**What I learned:**
+- Use a write pointer to place non-zero elements in order.
+- Remaining positions automatically become zero.
+
+**Pattern Used:** Two Pointers (Stable Partition / In-place rearrangement)
