@@ -60,3 +60,18 @@ Recursive calls use stack memory for each function call.
 - Remaining positions automatically become zero.
 
 **Pattern Used:** Two Pointers (Stable Partition / In-place rearrangement)
+
+
+## Date: May 25, 2026
+
+**Problem:** Find Maximum of Three Numbers
+
+**Why I got stuck:**
+- Converted output directly to long, which removed decimal values.
+- Assumed inputs would always be integers.
+
+**What I learned:**
+- Hidden test cases often include equal numbers and decimal values.
+- Math.max() makes comparison logic cleaner and safer.
+
+**Pattern Used:** Input Datatype Handling
