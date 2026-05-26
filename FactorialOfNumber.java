@@ -10,10 +10,11 @@ class Main {
         return n * fact(n - 1);
     }
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        long num = input.nextLong();
+        Scanner sc = new Scanner(System.in);
+        long num = sc.nextLong();
         Main obj = new Main();
         long n = obj.fact(num);
         System.out.println(n);
+        sc.close();
     }
 }

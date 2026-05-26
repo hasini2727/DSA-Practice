@@ -75,3 +75,18 @@ Recursive calls use stack memory for each function call.
 - Math.max() makes comparison logic cleaner and safer.
 
 **Pattern Used:** Input Datatype Handling
+
+
+## Date: May 26, 2026
+
+**Problem:** Frequency Count of Array Elements
+
+**Why I got stuck:**
+- Repeatedly updated the HashMap without increasing the counter.
+- Used nested loops even after introducing a HashMap.
+
+**What I learned:**
+- HashMap can update frequencies in a single traversal.
+- containsKey() and get() help track existing counts efficiently.
+
+**Pattern Used:** HashMap

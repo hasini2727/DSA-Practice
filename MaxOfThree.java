@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-class Main {
+class MaxOfThree {
     public static void main(String[] args) {
 
         double max;
@@ -20,5 +20,6 @@ class Main {
             System.out.println((long)max);
         else
             System.out.println(max);
+        input.close();
     }
 }
