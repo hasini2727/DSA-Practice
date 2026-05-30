@@ -106,3 +106,20 @@ Recursive calls use stack memory for each function call.
 - When finding a maximum, initialize with the first element (or Integer.MIN_VALUE) to handle all valid inputs.
 
 **Pattern Used:** Single-Pass Array Traversal
+
+
+## Date: May 30, 2026
+
+**Problem:** Second Largest Element in Array
+
+**Why I got stuck:**
+
+- First used sorting (O(n²)) instead of single pass.
+- Missed the rule, when a new max appears, old max must become second max.
+
+**What I learned:**
+
+- Scanner.nextInt() works with spaces and newlines (whitespace separator).
+- Each input number should be treated independently during comparison — no need to modify or rewrite stored values like nums[i].
+
+**Pattern Used:** Single-Pass Tracking
