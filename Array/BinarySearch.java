@@ -1,3 +1,4 @@
+package Array;
 //Problem: Binary Search
 //Pattern: Binary Search
 //Time: O(log n) | Space: O(1)

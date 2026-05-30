@@ -90,3 +90,19 @@ Recursive calls use stack memory for each function call.
 - containsKey() and get() help track existing counts efficiently.
 
 **Pattern Used:** HashMap
+
+
+## Date: May 30, 2026
+
+**Problem:** Maximum Element in Array
+
+**Why I got stuck:**
+- Tried to return the answer directly from main() using int main(), not realizing Java require public static void main(String[] args).
+- Initialized max with 0, which fails for arrays containing only negative numbers.
+- Stored the entire array first and then used a second traversal before realizing the maximum can be tracked while reading input.
+
+**What I learned:**
+- main() is the program entry point and should print results or call methods that return values.
+- When finding a maximum, initialize with the first element (or Integer.MIN_VALUE) to handle all valid inputs.
+
+**Pattern Used:** Single-Pass Array Traversal
