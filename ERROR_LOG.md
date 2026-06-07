@@ -123,3 +123,24 @@ Recursive calls use stack memory for each function call.
 - Each input number should be treated independently during comparison — no need to modify or rewrite stored values like nums[i].
 
 **Pattern Used:** Single-Pass Tracking
+
+
+## Date: June 7, 2026
+
+**Problem:** Left Rotate Array
+
+**Why I got stuck:**
+
+- Focused on calculating positions while reading input.
+- Assumed "memory smaller than input" means O(1) space.
+- Did not understand the difference between input space and extra space.
+- Struggled to understand how array rotation can be done without another array.
+
+**What I learned:**
+
+- Use k % n to handle large rotation counts.
+- O(1) space means memory does not grow with input size.
+- An array of size k is not O(1) if k can grow.
+- Input size and extra space are measured separately.
+
+**Pattern Used:** Array Rotation using Reversal Technique

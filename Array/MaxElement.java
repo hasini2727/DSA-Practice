@@ -2,7 +2,6 @@
 // Pattern: Single Pass Array Scan
 // Time: O(n) | Space: O(n)
 // Signal: Looking for an extreme value (max/min) in an array? Initialize with the first element and update the answer while traversing the remaining elements.
-package Array;
 import java.util.Scanner;
 
 class MaxElement{
