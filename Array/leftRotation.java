@@ -4,7 +4,7 @@
 // Time: O(n) | Space: O(1)
 // Signal: Need to rotate an array while satisfying O(1) extra space? Rearrange elements inside the same array instead of using another array.import java.util.Scanner;
 import java.util.Scanner;
-public class leftRotation {
+public class leftRotation{
     
     static void reverse(int [] arr, int left, int right){
         while(left < right){

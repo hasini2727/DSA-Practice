@@ -1,4 +1,4 @@
-package Array;
+
 // Problem: Second Largest Element in an Array
 // Pattern: Single Pass Tracking 
 // Time: O(n) | Space: O(1)

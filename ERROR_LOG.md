@@ -144,3 +144,20 @@ Recursive calls use stack memory for each function call.
 - Input size and extra space are measured separately.
 
 **Pattern Used:** Array Rotation using Reversal Technique
+
+
+## Date: June 11, 2026
+
+**Problem:** Remove Duplicates from Array
+
+**Why I got stuck:**
+- Stored unique elements at index i, causing gaps after duplicates were skipped.
+- Searched beyond the region containing accepted unique elements.
+- Focused on passing sample tests and missed the significance of the constraint N <= 100000.
+
+**What I learned:**
+- Input index and result index can represent different things.
+- Constraints are clues; N <= 100000 usually means an O(n²) approach may be too slow.
+- A logically correct solution can still be rejected due to poor time complexity.
+
+**Pattern Used:** Duplicate Detection(Brute Force Array Approach)
