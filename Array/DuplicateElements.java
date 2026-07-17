@@ -1,5 +1,5 @@
 // Problem: Remove Duplicates from Array
-// Pattern: Duplicate Detection / Seen-Before Checking (Brute Force Array Approach)
+// Pattern: Duplicate Detection (Brute Force Array Approach)
 // Time: O(n²) | Space: O(n)
 // Signal: Need to keep only unique elements? Check whether the current element has appeared before among accepted elements. Constraints like N ≤ 100000 are a clue to look for a faster lookup-based approach later.
 

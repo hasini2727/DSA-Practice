@@ -161,3 +161,19 @@ Recursive calls use stack memory for each function call.
 - A logically correct solution can still be rejected due to poor time complexity.
 
 **Pattern Used:** Duplicate Detection(Brute Force Array Approach)
+
+
+## Date: July 17, 2026
+
+**Problem:** Detect Capital
+
+**Why I got stuck:**
+- Used `==` to compare Strings instead of comparing their contents.
+- Created extra uppercase and lowercase copies of the entire word, increasing memory usage.
+- Didn't realize the problem could be solved by simply counting uppercase letters while traversing once.
+
+**What I learned:**
+- `==` checks whether two String references point to the same object, not whether their contents are equal.
+- Sometimes counting a simple property (like uppercase letters) is enough to validate all required cases.
+
+**Pattern Used:** String Traversal / Character Counting
