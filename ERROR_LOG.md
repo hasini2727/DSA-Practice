@@ -177,3 +177,37 @@ Recursive calls use stack memory for each function call.
 - Sometimes counting a simple property (like uppercase letters) is enough to validate all required cases.
 
 **Pattern Used:** String Traversal / Character Counting
+
+
+## Date: July 18, 2026
+
+**Problem:** Jewels and Stones
+
+**Why I got stuck:**
+- Compared every jewel with every stone, causing repeated work.
+- Tried using `contains()`, but didn't realize it still searches through the string each time.
+- Didn't think about preparing information before processing the stones.
+
+**What I learned:**
+- Sometimes it's faster to preprocess the input before solving the main problem.
+- A lookup table stores information in advance so answers can be found quickly without searching again.
+- A character can be used directly as an array index because Java automatically converts it to its numeric value.
+
+**Pattern Used:** Lookup Table / Character Marking
+
+
+## Date: July 22, 2026
+
+**Problem:** Length of Last Word
+
+**Why I got stuck:**
+- Used trim(), which processes the entire string before solving the actual problem.
+- Focused on finding the start and end positions of the last word, then calculating the distance using index arithmetic.
+- Made the return expression more complicated than necessary, increasing the chance of off-by-one errors.
+
+**What I learned:**
+- When the answer is near the end of the input, start scanning from the end instead of preprocessing the whole string.
+- Counting characters while traversing is often simpler and less error-prone than storing positions and calculating the answer later.
+- Skipping irrelevant characters (trailing spaces) first lets you process only the part of the string you actually need.
+
+**Pattern Used:** Reverse Traversal (Backward Scanning)
