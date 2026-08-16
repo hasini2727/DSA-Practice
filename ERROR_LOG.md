@@ -211,3 +211,40 @@ Recursive calls use stack memory for each function call.
 - Skipping irrelevant characters (trailing spaces) first lets you process only the part of the string you actually need.
 
 **Pattern Used:** Reverse Traversal (Backward Scanning)
+
+
+## Date: August 12, 2026
+
+**Problem:** Find the Difference — LeetCode 389
+
+**Why I got stuck:**
+
+- Initially used contains() and only checked whether a character existed, not how many times it appeared.
+- Used two frequency arrays and then made another pass to find the extra character.
+- Didn't realize that both strings could be handled using one frequency array by tracking the difference in counts.
+
+**What I learned:**
+
+- Matching characters can cancel each other when their counts are increased and decreased.
+- A single frequency array can store the difference between two strings.
+
+**Pattern Used:** Frequency Counting / Character Frequency Table
+
+
+## Date: August 16, 2026
+
+**Problem:** Build Array from Permutation — LeetCode 1920
+
+**Why I got stuck:**
+
+- Initially didn't understand what a permutation meant.
+- Got confused about how nums[i] could be used as an index.
+- Confused between the index where the answer is stored and the index used to access nums.
+
+**What I learned:**
+
+- nums[i] gives the next index to look at.
+- nums[nums[i]] means: use nums[i] as an index and get the value there.
+- Direct indexing allows the array to be processed in a single pass.
+
+**Pattern Used:** Array Index Mapping / Direct Indexing
