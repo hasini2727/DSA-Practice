@@ -248,3 +248,21 @@ Recursive calls use stack memory for each function call.
 - Direct indexing allows the array to be processed in a single pass.
 
 **Pattern Used:** Array Index Mapping / Direct Indexing
+
+
+## Date: August 16, 2026
+
+**Problem:** Number of Good Pairs — LeetCode 1512
+
+**Why I got stuck:**
+
+- Initially used nested loops and compared every pair.
+- Got confused when the third occurrence of a number added 2 to the count, but then realized it creates 2 new pairs.
+
+**What I learned:**
+
+- Keep track of the previous occurrences of each number.
+- The current frequency tells how many new pairs the current number creates.
+- Add the frequency to the pair count, then increase the frequency.
+
+Pattern Used: Frequency Counting / Incremental Counting
