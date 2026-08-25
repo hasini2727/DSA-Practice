@@ -265,4 +265,23 @@ Recursive calls use stack memory for each function call.
 - The current frequency tells how many new pairs the current number creates.
 - Add the frequency to the pair count, then increase the frequency.
 
-Pattern Used: Frequency Counting / Incremental Counting
+**Pattern Used:** Frequency Counting / Incremental Counting
+
+
+## Date: August 16, 2026
+
+**Problem:** Kids With the Greatest Number of Candies — LeetCode 1431
+
+**Why I got stuck:**
+
+- Got an error because I tried to return boolean[] when the method expected List<Boolean>.
+- Didn't know what Boolean meant or why Boolean[] was used.
+- Didn't understand what Arrays.asList(ans) did or why it worked with Boolean[] but not boolean[].
+
+**What I learned:**
+
+- Find the maximum value first when every element needs to be compared against it.
+- Traverse the array again and check whether each value can reach the maximum after adding extraCandies.
+- Boolean[] can be converted to List<Boolean> using Arrays.asList().
+
+**Pattern Used:** Find Maximum + Array Traversal
