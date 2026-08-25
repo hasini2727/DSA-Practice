@@ -285,3 +285,10 @@ Recursive calls use stack memory for each function call.
 - Boolean[] can be converted to List<Boolean> using Arrays.asList().
 
 **Pattern Used:** Find Maximum + Array Traversal
+
+
+## Date: August 25, 2026
+
+**Problem:** Richest Customer Wealth — LeetCode 1672
+
+**Pattern Used:** 2D Array Traversal
