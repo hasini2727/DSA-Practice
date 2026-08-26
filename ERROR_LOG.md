@@ -292,3 +292,22 @@ Recursive calls use stack memory for each function call.
 **Problem:** Richest Customer Wealth — LeetCode 1672
 
 **Pattern Used:** 2D Array Traversal
+
+
+# Date: August 26, 2026
+
+**Problem:** How Many Numbers Are Smaller Than the Current Number — LeetCode 1365
+
+**Why I got stuck:**
+
+- Initially used nested loops and compared every element with every other element.
+- Later optimized by comparing each pair only once, but still had too many comparisons.
+- Didn't initially recognize that the values have a small bounded range.
+
+**What I learned:**
+
+- Frequency counting can replace repeated pairwise comparisons when the value range is small.
+- Prefix sums can transform frequencies into the number of elements less than or equal to each value.
+- The original array must be traversed separately to place each result at its correct index.
+
+**Pattern Used:** Frequency Count + Prefix Sum
