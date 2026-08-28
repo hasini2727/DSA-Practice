@@ -1,7 +1,7 @@
 package Strings;
 // Problem: Jewels and Stones
 // Pattern: Lookup Table / Character Marking
-// Time: O(n) | Space: O(1)
+// Time: O(n+m) | Space: O(1)
 // Signal: Need to repeatedly check whether an item belongs to a small set? Mark all valid items first, then use fast lookups instead of searching every time.
 public class jewelsStones {
     public int numJewelsInStones(String jewels, String stones) {

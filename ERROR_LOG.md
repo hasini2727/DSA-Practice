@@ -311,3 +311,21 @@ Recursive calls use stack memory for each function call.
 - The original array must be traversed separately to place each result at its correct index.
 
 **Pattern Used:** Frequency Count + Prefix Sum
+
+
+# Date: August 28, 2026
+
+**Problem:** Create Target Array in the Given Order — LeetCode 1389
+
+**Why I got stuck:**
+
+- Tried to solve the problem using a frequency array.
+- Focused on counting repeated indices instead of handling insertion.
+- Struggled to implement the shifting correctly.
+
+**What I learned:**
+
+- Insertion requires making space by shifting elements to the right.
+- The current target array itself can handle repeated indices.
+
+**Pattern Used:** Array Insertion + Right Shifting
