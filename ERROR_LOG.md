@@ -329,3 +329,22 @@ Recursive calls use stack memory for each function call.
 - The current target array itself can handle repeated indices.
 
 **Pattern Used:** Array Insertion + Right Shifting
+
+
+# Date: August 29, 2026
+
+**Problem:** Truncate Sentence — LeetCode 1816
+
+**Why I got stuck:**
+
+- Initially used two counters: one for characters and one for spaces.
+- Didn't realize the loop index 'i' itself gives the position of the required space.
+- Was unsure whether substring(0, i) would include or exclude the character at i.
+
+**What I learned:**
+
+- The loop index can directly represent the position of the kth space.
+- substring(0, i) excludes index i, so the space is not included.
+- If the kth space is not found, the entire sentence should be returned.
+
+**Pattern Used:** String Traversal / Linear Scan

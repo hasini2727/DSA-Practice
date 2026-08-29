@@ -1,4 +1,4 @@
-package Strings;
+package String;
 // Problem: Detect Capital
 // Pattern: String Traversal / Character Counting
 // Time: O(n) | Space: O(1)
