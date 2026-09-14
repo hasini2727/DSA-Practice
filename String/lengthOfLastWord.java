@@ -1,4 +1,4 @@
-package Strings;
+package String;
 
 // Problem: Length of Last Word
 // Pattern: Reverse Traversal (Backward Scanning)

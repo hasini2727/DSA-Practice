@@ -1,4 +1,4 @@
-package Strings;
+package String;
 // Problem: Jewels and Stones
 // Pattern: Lookup Table / Character Marking
 // Time: O(n+m) | Space: O(1)

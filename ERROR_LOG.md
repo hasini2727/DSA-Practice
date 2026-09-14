@@ -348,3 +348,22 @@ Recursive calls use stack memory for each function call.
 - If the kth space is not found, the entire sentence should be returned.
 
 **Pattern Used:** String Traversal / Linear Scan
+
+
+# Date: September 14, 2026
+
+**Problem:** Plus Minus — HackerRank
+
+**Why I got stuck:**
+
+- I was confused about how to convert counts(plus, minus, zero, and n) into decimal ratios.
+- I was not clear about why (double) was written before plus, minus, and zero.
+- I was also unfamiliar with the printf("%.6f\n", value) format.
+
+**What I learned:**
+
+- Keep counting variables as int, and convert them to double only when calculating the ratio.
+- (double)plus / n makes the division decimal instead of integer division.
+- %.6f in printf() prints a floating-point value with exactly 6 digits after the decimal point.
+
+**Pattern Used:** Array Traversal / Counting
