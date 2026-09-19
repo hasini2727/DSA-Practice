@@ -2,7 +2,7 @@
 // Pattern: Frequency Counting / Incremental Counting
 // Time: O(n) | Space: O(1)
 // Signal: Need to count pairs of equal elements? Track previous occurrences and add them to the pair count.
-class Solution {
+class numberOfGoodPairs {
     public int numIdenticalPairs(int[] nums) {
 
         int[] frequency = new int[101];

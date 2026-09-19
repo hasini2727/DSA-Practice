@@ -367,3 +367,22 @@ Recursive calls use stack memory for each function call.
 - %.6f in printf() prints a floating-point value with exactly 6 digits after the decimal point.
 
 **Pattern Used:** Array Traversal / Counting
+
+
+# Date: September 19, 2026
+
+**Problem:** Subarray Division (Birthday) — HackerRank
+
+**Why I got stuck:**
+
+- Initially recalculated the sum of every subarray from scratch.
+- Didn't realize that consecutive windows share most of their elements.
+- Was confused about how to handle the first window separately.
+
+**What I learned:**
+
+- A fixed-size window can be moved one position at a time.
+- When the window moves, one element leaves and one new element enters.
+- Keeping the current sum avoids unnecessary repeated additions.
+
+**Pattern Used:** Sliding Window

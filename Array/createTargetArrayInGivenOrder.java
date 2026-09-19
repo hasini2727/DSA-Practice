@@ -2,7 +2,7 @@
 // Pattern: Array Insertion + Right Shifting
 // Time: O(n²) | Space: O(n)
 // Signal: Need to insert elements at specific positions while preserving order? Shift existing elements right to make space, then insert the new element.
-class Solution {
+class createTargetArrayInGivenOrder {
     public int[] createTargetArray(int[] nums, int[] index) {
         
         int[] target = new int[nums.length];
