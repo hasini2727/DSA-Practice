@@ -386,3 +386,22 @@ Recursive calls use stack memory for each function call.
 - Keeping the current sum avoids unnecessary repeated additions.
 
 **Pattern Used:** Sliding Window
+
+
+# Date: October 2, 2026
+
+**Problem:** Circular Array Rotation — HackerRank
+
+**Why I got stuck:**
+
+- Initially thought HackerRank expected me to actually rotate the entire array because the function returned a List<Integer>.
+- When I switched to processing only the queries, I struggled with negative indices and the circular wrapping logic.
+- Initially used an if-else based on whether the query index was smaller than k but it failed for some cases.
+
+**What I learned:**
+
+- A right rotation can be viewed as finding the original position of each queried index instead of physically moving the elements.
+- Circular positions can be represented using modulo so that indices wrap back to the beginning.
+- Using modulo reduces unnecessary rotations and maps each query index back to its original array position.
+
+**Pattern Used:** Array Index Mapping / Modular Arithmetic (Circular Indexing)
