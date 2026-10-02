@@ -405,3 +405,22 @@ Recursive calls use stack memory for each function call.
 - Using modulo reduces unnecessary rotations and maps each query index back to its original array position.
 
 **Pattern Used:** Array Index Mapping / Modular Arithmetic (Circular Indexing)
+
+
+# Date: October 3, 2026
+
+**Problem:** sequence Equation — HackerRank
+
+**Why I got stuck:**
+
+- Initially used nested loops to repeatedly search for the required values.
+- Didn't notice that the same position information was being searched again and again.
+- Didn't realize that I could store the position of each value separately.
+
+**What I learned:**
+
+- A permutation contains each value exactly once, so every value has one unique position.
+- An auxiliary array can store the position of each value for quick access.
+- For p(p(x)), the position of p(x) can be used to find the final answer directly.
+
+**Pattern Used:** Permutation + Inverse Mapping / Position Mapping
