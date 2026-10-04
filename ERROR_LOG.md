@@ -424,3 +424,22 @@ Recursive calls use stack memory for each function call.
 - For p(p(x)), the position of p(x) can be used to find the final answer directly.
 
 **Pattern Used:** Permutation + Inverse Mapping / Position Mapping
+
+
+# Date: October 4, 2026
+
+**Problem:** Picking Numbers — HackerRank
+
+**Why I got stuck:**
+
+* Initially misunderstood the condition and thought only adjacent elements needed to have a difference of at most 1.
+* Thought 1, 2, 2, 3 would be a valid group because each neighboring pair differs by at most 1.
+* Got confused when the input was not sorted and considered sorting before understanding the actual condition.
+
+**What I learned:**
+
+* Any two elements means the smallest and largest elements in the chosen group must differ by at most 1.
+* A valid group can contain only one value or two consecutive values such as x and x+1.
+* A frequency array can count occurrences and find the largest valid group without sorting.
+
+**Pattern Used:** Frequency Array / Counting
