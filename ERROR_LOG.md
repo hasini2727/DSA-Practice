@@ -432,14 +432,33 @@ Recursive calls use stack memory for each function call.
 
 **Why I got stuck:**
 
-* Initially misunderstood the condition and thought only adjacent elements needed to have a difference of at most 1.
-* Thought 1, 2, 2, 3 would be a valid group because each neighboring pair differs by at most 1.
-* Got confused when the input was not sorted and considered sorting before understanding the actual condition.
+- Initially misunderstood the condition and thought only adjacent elements needed to have a difference of at most 1.
+- Thought 1, 2, 2, 3 would be a valid group because each neighboring pair differs by at most 1.
+- Got confused when the input was not sorted and considered sorting before understanding the actual condition.
 
 **What I learned:**
 
-* Any two elements means the smallest and largest elements in the chosen group must differ by at most 1.
-* A valid group can contain only one value or two consecutive values such as x and x+1.
-* A frequency array can count occurrences and find the largest valid group without sorting.
+- Any two elements means the smallest and largest elements in the chosen group must differ by at most 1.
+- A valid group can contain only one value or two consecutive values such as x and x+1.
+- A frequency array can count occurrences and find the largest valid group without sorting.
 
 **Pattern Used:** Frequency Array / Counting
+
+
+# Date: October 11, 2026
+
+**Problem:** Valid Palindrome — LeetCode 125
+
+**Why I got stuck:**
+
+- Initially used a string of special characters and indexOf() to identify characters to skip.
+- Got confused about updating the character variables after moving the pointers.
+- Wasn't aware of the Character.isLetterOrDigit() method.
+
+**What I learned:**
+
+- Using i < j in the inner loops prevents the pointers from crossing while skipping invalid characters.
+- Using Character.isLetterOrDigit() makes the solution simpler than manually checking ASCII ranges.
+- A cleaner implementation can achieve the same time and space complexity as a longer solution.
+
+**Pattern Used:** Two Pointers

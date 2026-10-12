@@ -2,17 +2,8 @@
 // Pattern: Array Indexing + Modular Arithmetic (Circular Indexing)
 // Time: O(q) | Space: O(1)
 // Signal: Need to find values after circular shifts? Map each queried index back to its original position using modulo instead of rotating the array.
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 class Result {
 
