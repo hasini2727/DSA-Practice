@@ -445,7 +445,7 @@ Recursive calls use stack memory for each function call.
 **Pattern Used:** Frequency Array / Counting
 
 
-# Date: October 11, 2026
+# Date: October 12, 2026
 
 **Problem:** Valid Palindrome — LeetCode 125
 
@@ -460,5 +460,23 @@ Recursive calls use stack memory for each function call.
 - Using i < j in the inner loops prevents the pointers from crossing while skipping invalid characters.
 - Using Character.isLetterOrDigit() makes the solution simpler than manually checking ASCII ranges.
 - A cleaner implementation can achieve the same time and space complexity as a longer solution.
+
+**Pattern Used:** Two Pointers
+
+
+# Date: October 13, 2026
+
+**Problem:** Squares of a Sorted Array — LeetCode 977
+
+**Why I got stuck:**
+
+- Initially focused on squaring every element and sorting the entire array.
+- Didn't realize the original sorted order could help avoid a separate sorting step.
+
+**What I learned:**
+
+- The element with the largest absolute value must be at one of the two ends of a sorted array.
+- Comparing both ends helps identify the largest remaining square.
+- Filling the result array from the end keeps the squared values in ascending order.
 
 **Pattern Used:** Two Pointers
