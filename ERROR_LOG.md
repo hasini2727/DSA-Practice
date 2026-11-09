@@ -487,3 +487,19 @@ Recursive calls use stack memory for each function call.
 **Problem:** Find Numbers with Even Number of Digits — LeetCode 1295
 
 **Pattern Used:** Array Traversal + Conditional Counting
+
+
+## Date: November 9, 2026
+**Problem:** Check If Two String Arrays are Equivalent — LeetCode 1662
+
+**Why I got stuck:**
+
+- Got confused about handling string boundaries while comparing characters.
+- Used additional counters to track total characters and validate the result.
+
+**What I learned:**
+
+- Checking whether both arrays are completely traversed is sufficient to validate the final result.
+- Calculating the total character counts beforehand is unnecessary.
+
+**Pattern Used:** Two Pointers (String Traversal)
